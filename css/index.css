@@ -1,0 +1,72 @@
+@import url(./base.css);
+@import url(./classes.css);
+@import url(./airaport.css);
+@import url(./demo.css);
+@import url(./video.css);
+@import url(./map.css);
+@import url(./question.css);
+@import url(./footer.css);
+body{
+    margin: 0;;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    top: -80px;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+body {
+    background: #212731;
+    color: white;
+    height: px;
+    
+}
+li {
+    margin-left:0 0 0 40px;
+}
+.container{
+    max-width: 1110px;
+    margin: auto;
+}
+.hero{
+    padding-top: 200px;
+    background: url(../img/1529613014_o.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+.hero__title{
+    max-width: 556px;
+    font-size: 48px;
+    color:#D4C17F;
+    text-align: center;
+    margin: auto;
+}
+.hero__contact{
+    margin: 0 50px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.hero__img{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 500px;
+}
+.hero__bottom{
+    display: flex;
+    justify-content: center;
+}

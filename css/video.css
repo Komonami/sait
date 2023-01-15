@@ -1,0 +1,9 @@
+.video__content{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.video__iframe{
+    width: 64.77%;
+    height: 650px;
+}
